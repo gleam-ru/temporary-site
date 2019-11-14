@@ -1,1 +1,179 @@
-Hello, world!
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Web 1920 – 1.png.pdf</title>
+    <style type="text/css">
+      /* Copyright 2014 Mozilla Foundation
+       *
+       * Licensed under the Apache License, Version 2.0 (the "License");
+       * you may not use this file except in compliance with the License.
+       * You may obtain a copy of the License at
+       *
+       *     http://www.apache.org/licenses/LICENSE-2.0
+       *
+       * Unless required by applicable law or agreed to in writing, software
+       * distributed under the License is distributed on an "AS IS" BASIS,
+       * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+       * See the License for the specific language governing permissions and
+       * limitations under the License.
+       */
+      body {
+        display: flex;
+      }
+      div.pdf {
+        margin: 0 auto;
+      }
+
+      div.pdf, div[data-name] {
+        position: relative;
+      }
+
+      .textLayer {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        overflow: hidden;
+        opacity: 0.2;
+        line-height: 1.0;
+      }
+
+      .textLayer > div {
+        color: transparent;
+        position: absolute;
+        white-space: pre;
+        cursor: text;
+        -webkit-transform-origin: 0% 0%;
+        -moz-transform-origin: 0% 0%;
+        -o-transform-origin: 0% 0%;
+        -ms-transform-origin: 0% 0%;
+        transform-origin: 0% 0%;
+      }
+
+      .textLayer .highlight {
+        margin: -1px;
+        padding: 1px;
+
+        background-color: rgb(180, 0, 170);
+        border-radius: 4px;
+      }
+
+      .textLayer .highlight.begin {
+        border-radius: 4px 0px 0px 4px;
+      }
+
+      .textLayer .highlight.end {
+        border-radius: 0px 4px 4px 0px;
+      }
+
+      .textLayer .highlight.middle {
+        border-radius: 0px;
+      }
+
+      .textLayer .highlight.selected {
+        background-color: rgb(0, 100, 0);
+      }
+
+      .textLayer ::selection { background: rgb(0,0,255); }
+      .textLayer ::-moz-selection { background: rgb(0,0,255); }
+
+      .textLayer .endOfContent {
+        display: block;
+        position: absolute;
+        left: 0px;
+        top: 100%;
+        right: 0px;
+        bottom: 0px;
+        z-index: -1;
+        cursor: default;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        -moz-user-select: none;
+      }
+
+      .textLayer .endOfContent.active {
+        top: 0px;
+      }
+
+      body {
+        margin: 0px;
+      }
+
+      #the-main-image {
+        object-fit: contain;
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+  </head>
+    <body>
+     <div class="pdf">
+        <div title="[Page-1] Web 1920 – 1.png.pdf">
+           <img id="the-main-image" class="html" src="./oh-god-nooo.png" data-url="blob:chrome-extension://dlbkipdloejpgekglcncflhhcfcbmhpk/34eefd84-03a8-403f-ad28-be5ae82380f8">
+           <div class="textLayer">
+              <div style="left: 418.5px; top: 67.95px; font-size: 78px; font-family: sans-serif; transform: scaleX(1.07282);">webbee</div>
+              <div style="left: 34.5px; top: 1542.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(0.985703);">(C) 2019</div>
+              <div style="left: 149.55px; top: 1542.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(0.99302);">, ООО «Вебби»</div>
+              <div style="left: 363.99px; top: 1542.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.01032);">. +7(925)529-90-40</div>
+              <div style="left: 804px; top: 70.875px; font-size: 75px; font-family: sans-serif; transform: scaleX(1.06021);">Продуктовая разработка информационных систем</div>
+              <div style="left: 1815px; top: 340.5px; font-size: 60px; font-family: sans-serif; transform: scaleX(1.02923);">до этапа «Запуска в продакшн» </div>
+              <div style="left: 1540.5px; top: 226.5px; font-size: 60px; font-family: sans-serif; transform: scaleX(1.02778);">От этапа «Сбора требований» </div>
+              <div style="left: 549px; top: 523.5px; font-size: 60px; font-family: sans-serif; transform: scaleX(1.0498);">Полный </div>
+              <div style="left: 800.46px; top: 523.5px; font-size: 60px; font-family: sans-serif; transform: scaleX(1.04816);">цикл создания продукта:  </div>
+              <div style="left: 549px; top: 612px; font-size: 60px; font-family: sans-serif; transform: scaleX(1.03555);">аналитик</div>
+              <div style="left: 825.96px; top: 612px; font-size: 60px; font-family: sans-serif; transform: scaleX(1.05037);">а, разработка, тестирование</div>
+              <div style="left: 549px; top: 700.5px; font-size: 60px; font-family: sans-serif; transform: scaleX(1.04495);">стек тех</div>
+              <div style="left: 795.9px; top: 700.5px; font-size: 60px; font-family: sans-serif; transform: scaleX(1.06463);">нологий Веб-разработки</div>
+              <div style="left: 549px; top: 789px; font-size: 60px; font-family: sans-serif; transform: scaleX(1.05957);">стек р</div>
+              <div style="left: 735.78px; top: 789px; font-size: 60px; font-family: sans-serif; transform: scaleX(1.05808);">азработки мобильных приложений</div>
+              <div style="left: 549px; top: 877.5px; font-size: 60px; font-family: sans-serif; transform: scaleX(1.05885);">AR/VR, 3D, Unity, etc...</div>
+              <div style="left: 549px; top: 1056.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.06728);">Сбор </div>
+              <div style="left: 634.44px; top: 1056.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.05127);">требований функционального Заказчика</div>
+              <div style="left: 549px; top: 1109.25px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.04056);">Анализ труд</div>
+              <div style="left: 732.81px; top: 1109.25px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.0589);">озатрат, расчет стоимости работ</div>
+              <div style="left: 549px; top: 1161.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.07439);">Согласов</div>
+              <div style="left: 691.32px; top: 1161.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.06165);">ание стоимости, обоснование, расчеты</div>
+              <div style="left: 549px; top: 1214.25px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.05142);">Прототипирование, проектирование, документирование</div>
+              <div style="left: 549px; top: 1266.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.05032);">Разр</div>
+              <div style="left: 620.82px; top: 1266.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.05066);">аботка по любым методологиям (каскад, прототипы, итерации)</div>
+              <div style="left: 549px; top: 1319.25px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.05001);">Тестир</div>
+              <div style="left: 653.16px; top: 1319.25px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.05283);">ование (интеграционное, функциональное, регресс, UX/UI)</div>
+              <div style="left: 549px; top: 1371.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.04898);">Развер</div>
+              <div style="left: 655.47px; top: 1371.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.05183);">тывание на стороне заказчика</div>
+              <div style="left: 1933.5px; top: 573.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.143);">https://www</div>
+              <div style="left: 2109.06px; top: 573.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.10045);">.fonbet.ru/</div>
+              <div style="left: 1933.5px; top: 678.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.143);">https://www</div>
+              <div style="left: 2109.06px; top: 678.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.08435);">.mos.ru/  </div>
+              <div style="left: 1933.5px; top: 783.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.13014);">https://mcko.ru/ </div>
+              <div style="left: 1933.5px; top: 888.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.11979);">http://ar.mcko.ru/ </div>
+              <div style="left: 1933.5px; top: 993.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.12095);">http://bch.mcko.ru</div>
+              <div style="left: 2329.5px; top: 563.25px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.09364);">высо</div>
+              <div style="left: 2405.82px; top: 563.25px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.05583);">конагруженный фронт, </div>
+              <div style="left: 2329.5px; top: 600.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.05777);">переезд с</div>
+              <div style="left: 2477.52px; top: 600.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.05384);"> angular на vue</div>
+              <div style="left: 2329.5px; top: 668.25px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.02638);">чат + </div>
+              <div style="left: 2413.68px; top: 668.25px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.0436);">админка для техподдержки</div>
+              <div style="left: 2329.5px; top: 735.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.05639);">сайт с п</div>
+              <div style="left: 2448.39px; top: 735.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.05325);">осещаемостью 100 000 / </div>
+              <div style="left: 2329.5px; top: 773.25px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.04249);">сутки и более, CRM для управления </div>
+              <div style="left: 2329.5px; top: 810.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.03773);">1000 пос</div>
+              <div style="left: 2457.6px; top: 810.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.04252);">етителей / сутки</div>
+              <div style="left: 2329.5px; top: 878.25px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.04611);">AR/VR-квесты для МЦКО </div>
+              <div style="left: 2329.5px; top: 945.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.07056);">Блокчейн-сист</div>
+              <div style="left: 2554.02px; top: 945.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.05116);">ема хранения </div>
+              <div style="left: 2329.5px; top: 983.25px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.03989);">результатов ЕГЭ и ОГЭ для МЦКО</div>
+              <div style="left: 2292px; top: 1160.25px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.05696);">Контак</div>
+              <div style="left: 2399.28px; top: 1160.25px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.02838);">ты:  </div>
+              <div style="left: 2292px; top: 1227.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.01065);">+7(925)529-90-40 </div>
+              <div style="left: 2292px; top: 1295.25px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.0296);">info@web</div>
+              <div style="left: 2429.82px; top: 1295.25px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.07478);">-bee.ru </div>
+              <div style="left: 2292px; top: 1362.75px; font-size: 30px; font-family: sans-serif; transform: scaleX(1.11064);">https://web-bee.ru</div>
+              <div style="left: 2208px; top: 1290.9px; font-size: 36px; font-family: sans-serif;">@</div>
+              <div class="endOfContent"></div>
+           </div>
+        </div>
+     </div>
+  </body>
+</html>
